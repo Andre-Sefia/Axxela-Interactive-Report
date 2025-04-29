@@ -20,13 +20,107 @@ body{
     width: 100vw;
 }
 
+.sideBar{
+    background-color: white;
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sideBar i:hover{
+    color: rgb(169, 216, 255);
+    cursor: pointer;
+}
+.sidebarTop{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+    align-items: center;
+    width: 92.5%;
+    border-right: 2px solid rgb(20, 115, 145);
+}
+.sidebarTop i{
+    font-size: 21px;
+    color: rgb(20, 115, 145);
+}
+
+.sidebarBottom{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 0;
+    align-items: center;
+    width: 92.5%;
+    border-right: 2px solid rgb(20, 115, 145);
+}
+.sidebarBottom i{
+    color: rgb(202, 31, 8);
+    font-size: 21px;
+}
+
+
+/*HIDDEN BAR*/
+.bigBar{
+    background-color: white;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+}
+.bigBar a{
+    text-decoration: none;
+    color: rgb(20, 115, 145);
+    font-weight: bolder;   
+}
+.bigBar a:hover{
+    color: rgb(169, 216, 255);
+}
+
+
+.bigbarTop{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0 0 15px;
+    align-items: flex-start;
+    width: 92.5%;
+    border-right: 2px solid rgb(20, 115, 145);
+}
+.bigbarTop i{
+    font-size: 18px;
+    color: rgb(20, 115, 145);
+}
+
+.bigbarBottom{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 15px;
+    align-items: flex-start;
+    width: 92.5%;
+    border-right: 2px solid rgb(20, 115, 145);
+}
+.bigbarBottom i{
+    color: rgb(202, 31, 8);
+    font-size: 18px;
+}
+
+
 .navBar{
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    height: 17.5vh;
+    width: 60%;
+    height: 11.5vh;
     justify-self: center;
-    box-shadow: 0px 10px 40px 0px rgb(116, 168, 197);
+    box-shadow: 0px 10px 60px 0px rgb(253, 253, 253);
     padding-top: 1%;
 }
 .navBar:hover{
@@ -34,36 +128,28 @@ body{
     transition: 0.4s;
 }
 
-.burger{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(20, 115, 145);
-}
-.burger i{
-    color: white;
-    font-size: 40px;
-}
-
 .logo{
     background-color: white;
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px 0 0 5px;
 }
 .logo img{
-    width: 20%;
+    width: 25%;
+    position: relative;
+    left: 21.5%;
 }
 
 
 .navIcons{
     background-color: white;
-    width: 20%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 0 5px 5px 0;
 }
 .navIcons i{
     font-size: large;
@@ -105,4 +191,5 @@ body{
     background-color: rgb(20, 115, 145);
     border: none;
     transition: 0.2s;
+    box-shadow: 0 2px 0px white;
 }
