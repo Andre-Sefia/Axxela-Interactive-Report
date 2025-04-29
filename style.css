@@ -1,0 +1,108 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+.backgroundClip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100vw;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 17.5vh;
+    justify-self: center;
+    box-shadow: 0px 10px 40px 0px rgb(116, 168, 197);
+    padding-top: 1%;
+}
+.navBar:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.burger{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 115, 145);
+}
+.burger i{
+    color: white;
+    font-size: 40px;
+}
+
+.logo{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+}
+
+
+.navIcons{
+    background-color: white;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navIcons i{
+    font-size: large;
+    color: rgb(20, 115, 145);
+}
+
+
+/*HERO PAGE!!!*/
+.heroPage{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    margin: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.motion{
+    font-size: 43px;
+    color: white;
+    margin-bottom: 60px;
+    font-weight: bolder;
+}
+
+.heroPage a{
+    color: rgb(169, 216, 255);
+    text-decoration: none;
+    padding: 1.5% 2%;
+    border: 1px solid rgb(169, 216, 255);
+    font-weight: bold;
+    border-radius: 2px;
+}
+.heroPage a:hover{
+    color: white;
+    background-color: rgb(20, 115, 145);
+    border: none;
+    transition: 0.2s;
+}
