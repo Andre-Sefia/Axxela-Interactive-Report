@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
 
@@ -17,10 +17,34 @@
     </video>
 
     <header>
+        <div class="sideBar" id="show">
+            <div class="sidebarTop">
+                <i class="fa-solid fa-bars" id="nav"></i>
+                <a href=""><i class="fa-solid fa-house-chimney"></i></a>
+                <a href=""><i class="fa-solid fa-address-card"></i></a>
+                <a href=""><i class="fa-solid fa-book-open"></i></a>
+                <a href=""><i class="fa-solid fa-file-lines"></i></a>
+            </div>
+        
+            <div class="sidebarBottom"><a href=""><i class="fa-solid fa-phone"></i></a></div>
+        </div>
+
+
+        <!-- HIDDEN SIDE BAR -->
+        
+        <div class="bigBar" id="hidden">
+            <div class="bigbarTop">
+                <a href=""><i class="fa-solid fa-bars"></i></a>
+                <a href=""><i class="fa-solid fa-house-chimney"></i> Home Axxela</a>
+                <a href=""><i class="fa-solid fa-address-card"></i> About this Report</a>
+                <a href=""><i class="fa-solid fa-book-open"></i> Inside this Report</a>
+                <a href=""><i class="fa-solid fa-file-lines"></i> CEO Statement</a>
+            </div>
+        
+            <div class="bigbarBottom"><a href=""><i class="fa-solid fa-phone"></i> Contact Us</a></div>
+        </div>
         
             <nav class="navBar">
-
-                <div class="burger"><i class="fa-solid fa-bars"></i></div>
 
                 <div class="logo"><img src="resources/Axxela_logo_2x.png" alt=""></div>
 
@@ -50,5 +74,6 @@
 
 
 </div>
+<script src="index.js"></script>
 </body>
 </html>
