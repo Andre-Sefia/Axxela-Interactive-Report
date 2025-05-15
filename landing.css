@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*BODY*/
+.hero{
+    height: 65vh;
+    padding: 5% 0 0 7.5%;
+    background-color: rgba(21, 63, 153, 0.952);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero h1{
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+
+.report{
+    width: 30%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.report i{
+    color: greenyellow;
+}
+.report a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 3% 4%;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+}
+.report a:hover{
+    background-color: white;
+    color: rgba(21, 63, 153, 0.952);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.statistics{
+    height: 55%;
+    width: 85%;
+    position: absolute;
+    top: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.statistics div{
+    box-shadow: 0 0 5px 0 grey;
+    width: 30%;
+    height: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.revenue{
+    background-color: rgba(24, 53, 117, 0.9);
+}
+.revenue:hover{
+    background-color: rgba(24, 53, 117, 1);
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+.revenue p{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.revenue span p{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.embsigns{
+    background-color: rgba(255, 253, 253, 0.9);
+}
+.embsigns:hover{
+    background-color: rgba(255, 253, 253, 1);
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+.embsigns p{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+.embsigns span p{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.green{
+    color: rgba(20, 75, 20, 0.9);
+}
+
+.reach{
+    background-color: rgba(20, 75, 20, 0.9);
+}
+.reach:hover{
+    background-color: rgba(20, 75, 20, 1);
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+.reach p{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.reach span p{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+/*SECTION 2*/
+.padding{
+    padding: 0 7.5%;
+}
+
+
+.text{
+    margin-top: 30vh;
+    border: 1px solid rgba(24, 53, 117, 0.9);
+    border-radius: 5px;
+    height: 25vh;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    align-items: center;
+}
+.text i{
+    color: rgb(209, 209, 209);
+    font-size: 80px;
+    margin: 20px;
+}
+.text p{
+    font-size: 30px;
+}
+
+
+/*  SECTION 3 */
+.section3{
+    height: 125vh;
+    margin-top: 50px;
+}
+.section3 h3{
+    font-size: 30px;
+}
+
+
+.gridItems{
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.reportGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 47.5%;
+    height: 45%;
+}
+.reportGrid div{
+    width: 40%;
+    height: 45%;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3.5%;
+}
+.reportGrid div i{
+    font-size: 70px;
+    color: rgba(21, 63, 153, 0.952);
+    margin-right: 10px;
+}
+.reportGrid p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.initiatives{
+    border-right: 1px solid rgba(21, 63, 153, 0.952);
+}
+.overviewF{
+    border-bottom: 1px solid rgba(21, 63, 153, 0.952);
+}
+.shares{
+    border: 1px solid rgba(21, 63, 153, 0.952);
+    border-top: none;
+    border-left: none;
+}
+
+
+
+.highlights{
+    box-shadow: 0 0 5px 0 grey;
+    border: 1px solid rgba(21, 63, 153, 0.952);
+    border-right: none;
+    border-top: none;
+    border-radius: 5px;
+    width: 35%;
+    height: 45%;
+    margin-left: 2%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    background-color: grey;
+    width: 100%;
+}
+.video i{
+    font-size: 100px;
+    color: white;
+}
+
+.highlightsText{
+    height: 30%;
+    width: 100%;
+    padding: 4%;
+}
+.highlightsText h3{
+    font-size: 18px;
+}
+
+.graph{
+    width: 47.5%;
+    height: 45%;
+    border: 1px solid green;
+    border: 1px solid rgba(21, 63, 153, 0.952);
+    border-left: none;
+    border-bottom: none;
+    box-shadow: 0 0 5px 0 grey;
+}
+.graph img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.africa{
+    width: 40%;
+    height: 45%;
+    border: 1px solid rgba(21, 63, 153, 0.952);
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0 0 5px 0 grey;
+}
+.africa img{
+    width: 110%;
+}
+
+/*DOWNLOAD BUTTON*/
+.download{
+    height: 10vh;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download a{
+    text-decoration: none;
+    color: rgba(24, 53, 117, 0.897);
+    background-color: white;
+    padding: 1.5% 5% 1.5% 5%;
+    border: 1px solid rgba(24, 53, 117, 0.438);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.download a:hover{
+    background-color: rgba(24, 53, 117, 0.897);
+    color: white;
+    transition: 0.2s;
+}
+
