@@ -205,6 +205,8 @@ body{
 }
 .section3 h3{
     font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 
@@ -263,7 +265,7 @@ body{
 
 
 
-.highlights{
+.highlight{
     box-shadow: 0 0 10px 0 grey;
     border: 1px solid rgba(21, 63, 153, 0.952);
     border-left: none;
@@ -273,7 +275,7 @@ body{
     height: 47.5%;
     margin-left: 2%;
 }
-.highlights:hover{
+.highlight:hover{
     transform: scale(0.94);
     transition: 0.4s;
     box-shadow: 0 0 5px 0 grey;
@@ -351,18 +353,311 @@ body{
 
 
 /*DOWNLOAD BUTTON*/
+/*DOWNLOAD BUTTON
 .download{
     height: 10vh;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .download a{
     text-decoration: none;
+    color: rgba(24, 53, 117, 0.897);
+    background-color: white;
+    padding: 1.5% 5% 1.5% 5%;
+    border: 1px solid rgba(24, 53, 117, 0.438);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.download a:hover{
+    background-color: rgb(245, 245, 18);
+    color: rgba(21, 63, 153, 0.952);
+    transition: 0.3s;
+    transform: scale(0.9);
+}*/
+
+
+
+/*OVERVIEW*/
+/*NAVBAR
+.blueTop{
+    width: 100%;
+    height: 7vh;
     background-color: rgba(24, 53, 117, 0.897);
+}*/
+
+
+/*PADDING*/
+.body{
+    padding: 0 7.5% 0 7.5%;
+    margin-top: 15%;
+}
+
+
+/*PAGE OVERVIEW*/
+.pageOverview{
+    width: 100%;
+    height: 70vh;
+}
+
+.overview{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.overview h2{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 2.5%;
+    text-align: center;
+    font-weight: bolder;
+}
+.overview p{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sectionii{
+    width: 100%;
+    height: 65%;
+    display: flex;
+}
+
+.introduction{
+    height: 90%;
+    width: 65%;
+    margin-right: 5%;
+    padding: 2% 1% 0 4%;
+    border-left: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(24, 53, 117, 0.897);
+    border-left: none;
+}
+.introduction:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 5px 0 rgb(39, 39, 39);
+}
+.introduction h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.introduction p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+
+.highlights{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(24, 53, 117, 0.897);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
     color: white;
+}
+.highlights:hover{
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px 0 rgb(39, 39, 39);
+}
+
+.highlights i{
+    font-size: 90px;
+    margin-bottom: 10%;
+}
+
+.highlights p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.highlights a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2% 10% 2% 10%;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.highlights a:hover{
+    color: rgba(24, 53, 117, 0.897);
+    background-color: white;
+    transition: 0.2s;
+}
+
+
+/*DEDICATION*/
+.dedication{
+    height: 20vh;
+    margin: 10% 0 5% 0;
+    display: flex;
+}
+.quote{
+    width: 8.5%;
+    display: flex;
+    align-items: center;
+}
+.dedication i{
+    font-size: 80px;
+    color: rgba(20, 75, 20, 0.897);
+}
+
+.quoteText{
+    width: 91.5%;
+    display: flex;
+    align-items: center;
+}
+.dedication p{
+    font-size: 23px;
+}
+
+
+
+/*ESG*/
+.ESG{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.environment {
+    border: 1px solid rgba(20, 75, 20, 0.897);
+    border-radius: 5px;
+    height: 85%;
+    width: 25%;
+    margin-right: 5%;
+    background: linear-gradient(to top, rgba(20, 75, 20, 0.897) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1%;
+    box-shadow: 0 0 15px 0 gray;
+}
+.environment i{
+    font-size: 50px;
+    color: rgba(20, 75, 20, 0.897);
+    background-color: white;
+    box-shadow: 0 0 5px 0 white;
+    border-radius: 100%;
+    padding: 2% 5% 2% 5%;
+    margin-bottom: 15%;
+}
+.environment p{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8%;
+}
+.environment:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgba(20, 75, 20, 0.897);
+}
+
+.social {
+    border: 1px solid rgba(24, 53, 117, 0.897);
+    border-radius: 5px;
+    height: 85%;
+    width: 25%;
+    margin-right: 5%;
+    background: linear-gradient(to top, rgba(24, 53, 117, 0.897) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1%;
+    box-shadow: 0 0 15px 0 gray;
+}
+.social i{
+    font-size: 50px;
+    color: rgba(24, 53, 117, 0.897);
+    background-color: white;
+    box-shadow: 0 0 5px 0 white;
+    border-radius: 100%;
+    padding: 2% 5% 2% 5%;
+    margin-bottom: 15%;
+}
+.social p{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8%;
+}
+.social:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgba(24, 53, 117, 0.897);
+}
+
+.governance {
+    border: 1px solid rgb(255, 255, 2);
+    border-radius: 5px;
+    height: 85%;
+    width: 25%;
+    background: linear-gradient(to top, rgb(235, 235, 33) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1%;
+    box-shadow: 0 0 15px 0 gray;
+}
+.governance i{
+    font-size: 50px;
+    color: rgb(235, 235, 33);
+    background-color: white;
+    box-shadow: 0 0 15px 0 white;
+    border-radius: 100%;
+    padding: 2% 5% 2% 5%;
+    margin-bottom: 15%;
+}
+.governance p{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8%;
+}
+.governance:hover{
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(216, 216, 74);
+}
+
+
+/*DOWNLOAD BUTTON*/
+.download{
+    height: 10vh;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download a{
+    text-decoration: none;
+    color: rgba(24, 53, 117, 0.897);
+    background-color: white;
     padding: 1.5% 5% 1.5% 5%;
     border: 1px solid rgba(24, 53, 117, 0.438);
     text-transform: uppercase;
