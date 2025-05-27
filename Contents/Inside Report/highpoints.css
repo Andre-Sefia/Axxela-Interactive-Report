@@ -21,7 +21,7 @@
 
 body{
     font-family: 'Rufina';
-    background-image: url(/resources/high_points.jpeg);
+    background-image: url(../../resources/high_points.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
