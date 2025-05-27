@@ -7,15 +7,15 @@
 
 @font-face {
     font-family: 'Italic-Lato';
-    src: url(/resources/Fonts/Lato/Lato-BlackItalic.ttf);
+    src: url(../../resources/Fonts/Lato/Lato-BlackItalic.ttf);
 }
 @font-face {
     font-family: 'Lato';
-    src: url(/resources/Fonts/Lato/Lato-Bold.ttf);
+    src: url(../../resources/Fonts/Lato/Lato-Bold.ttf);
 }
 @font-face {
     font-family: 'Rufina';
-    src: url(/resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
+    src: url(../../resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
 }
 
 

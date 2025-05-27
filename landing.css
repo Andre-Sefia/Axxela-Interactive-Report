@@ -304,7 +304,7 @@ body{
     width: 100%;
     padding: 4%;
 }
-.highlightsText h3{
+.highlightsText h4{
     font-size: 18px;
 }
 
@@ -656,8 +656,8 @@ body{
 }
 .download a{
     text-decoration: none;
-    color: rgba(24, 53, 117, 0.897);
-    background-color: white;
+    color: white;
+    background-color: rgba(24, 53, 117, 0.897);
     padding: 1.5% 5% 1.5% 5%;
     border: 1px solid rgba(24, 53, 117, 0.438);
     text-transform: uppercase;
