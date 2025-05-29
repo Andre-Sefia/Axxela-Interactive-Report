@@ -1,0 +1,114 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Italic-Lato';
+    src: url(../../resources/Fonts/Lato/Lato-BlackItalic.ttf);
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../../resources/Fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Rufina';
+    src: url(../../resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
+}
+
+
+body{
+    font-family: 'Rufina';
+    background-image: url(../../resources/we_are_axxela.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+
+
+/*NAVIGATION*/
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 11.5vh;
+    justify-self: center;
+    box-shadow: 0 0 10px 0px grey;
+    margin-top: 2%;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+.navBar:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.logo{
+    background-color: white;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+}
+.logo img{
+    width: 25%;
+    position: relative;
+    left: 21.5%;
+}
+
+
+.navIcons{
+    background-color: white;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 5px 5px 0;
+}
+.navIcons i{
+    font-size: large;
+    color: rgb(20, 115, 145);
+}
+
+
+/*HEADING*/
+.heading{
+    background-color: rgba(20, 115, 145, 0.7);;
+    height: 45vh;
+    margin: 3% 5%;
+    width: 35%;
+    padding: 5% 5%;
+}
+
+.heading h2{
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lato';
+    color: white;
+}
+
+.designBox{
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-self: flex-end;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.designBox img{
+    width: 50%;
+    height: 30%;
+    opacity: 0.4;
+    border-radius: 8px;
+}
+

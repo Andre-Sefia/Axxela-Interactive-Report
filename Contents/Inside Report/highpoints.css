@@ -120,7 +120,7 @@ body{
 /*LEFT SIDE*/
 .left{
     width: 33%;
-    height: 260vh;
+    height: 220vh;
 }
 .left .comment{
     background-color: rgba(0, 0, 0, 0.9);
@@ -141,7 +141,7 @@ body{
 .middle{
     background-color: rgb(226, 223, 10);
     width: .5%;
-    height: 260vh;
+    height: 165vh;
     margin: 0 7.5%;
     display: flex;
     flex-direction: column;
@@ -149,10 +149,10 @@ body{
     align-items: center;
 }
 .circleDiv{
-    width: 3.5vw;
-    height: 8.5vh;
+    width: 3vw;
+    height: 7vh;
     background-color: rgb(235, 234, 234);
-    margin: 1100% 0;
+    margin: 1000% 0;
     border-radius: 50%;
     border: 3px solid white;
     display: flex;
@@ -164,7 +164,7 @@ body{
 /*RIGHT SIDE*/
 .right{
     width: 33%;
-    height: 260vh;
+    height: 220vh;
 }
 .right .comment{
     background-color: rgba(21, 63, 153, 0.952);
