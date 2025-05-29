@@ -96,7 +96,7 @@ body{
 
 /*SECTION 2*/
 .sustainability{
-    height: 370vh;
+    height: 270vh;
     width: 70%;
     margin-top: 17%;
     display: flex;
@@ -120,7 +120,7 @@ body{
 /*LEFT SIDE*/
 .left{
     width: 33%;
-    height: 220vh;
+    height: 200vh;
 }
 .left .comment{
     background-color: rgba(0, 0, 0, 0.9);
@@ -164,7 +164,7 @@ body{
 /*RIGHT SIDE*/
 .right{
     width: 33%;
-    height: 220vh;
+    height: 200vh;
 }
 .right .comment{
     background-color: rgba(21, 63, 153, 0.952);
@@ -182,9 +182,10 @@ body{
 }
 
 .comment:hover{
-    transform: scale(0.95);
+    transform: scale(1.1);
     transition: 0.3s;
     box-shadow: 0 0 2px 0 black;
+    font-size: 17px;
 }
 
 
