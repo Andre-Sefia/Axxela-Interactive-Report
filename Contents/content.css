@@ -136,7 +136,7 @@ body{
     font-family: 'Lato';
     color: white;
     margin-bottom: 7.5%;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 170%;
 }
 
@@ -146,7 +146,7 @@ body{
     color: rgb(105, 142, 219);
     background-color: white;
     box-shadow: 0 0 5px 0 white;
-    font-size: 20px;
+    font-size: 16px;
 }
 .contentBoxText a:hover{
     color: white;
