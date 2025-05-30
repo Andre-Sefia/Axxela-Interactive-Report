@@ -440,10 +440,6 @@ body{
     border-radius: 5px;
     background-color: whitesmoke;
     border: 1px solid rgba(24, 53, 117, 0.897);
-    border-left: none;
-}
-.introduction:hover{
-    transition: 0.2s;
     box-shadow: 0 0 5px 0 rgb(39, 39, 39);
 }
 .introduction h4{

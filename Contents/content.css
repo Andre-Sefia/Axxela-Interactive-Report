@@ -37,9 +37,11 @@ body{
     height: 11.5vh;
     justify-self: center;
     box-shadow: 0 0 10px 0px grey;
-    padding-top: 1%;
+    /*padding-top: 1%;*/
     margin-top: 2%;
     border-radius: 5px;
+    position: sticky;
+    top: 0;
 }
 .navBar:hover{
     transform: scale(1.03);
@@ -93,21 +95,23 @@ body{
 }
 
 .contentBox{
-    height: 100vh;
+    height: 110vh;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 black;
     margin: 10% 0;
+    background-color: rgb(72, 123, 231);
 }
 
 .contentBoxImg{
     height: 50%;
     width: 100%;
-    background-color: rgb(182, 180, 180);
+    background-color: white;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: end;
-    color: white;
+    color: gray;
+    padding-bottom: 2%;
 }
 .contentBoxImg img{
     width: 100%;
