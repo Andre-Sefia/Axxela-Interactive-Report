@@ -8,21 +8,21 @@
 
 @font-face {
     font-family: 'Light-Lato';
-    src: url(../../resources/Fonts/Lato/Lato-Regular.ttf);
+    src: url(../resources/Fonts/Lato/Lato-Regular.ttf);
 }
 @font-face {
     font-family: 'Lato';
-    src: url(../../resources/Fonts/Lato/Lato-Bold.ttf);
+    src: url(../resources/Fonts/Lato/Lato-Bold.ttf);
 }
 @font-face {
     font-family: 'Rufina';
-    src: url(../../resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
+    src: url(../resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
 }
 
 
 body{
     font-family: 'Lato';
-    background-image: url(../../resources/WeAreAxxela/2024\ EHSQ\ Day.jpg);
+    background-image: url(../resources/WeAreAxxela/2024\ EHSQ\ Day.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
