@@ -1,0 +1,277 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Light-Lato';
+    src: url(../../resources/Fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../../resources/Fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Rufina';
+    src: url(../../resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
+}
+
+.body{
+    font-family: 'Light-Lato';
+    background-image: url(../../resources/CEO_Statement/ceooffice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 2%;
+}
+
+
+
+
+
+/*NAVIGATION*/
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 11.5vh;
+    justify-self: center;
+    box-shadow: 0 0 10px 0px grey;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+.navBar:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.logo{
+    background-color: white;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+}
+.logo a img{
+    width: 50%;
+    position: relative;
+    left: 21.5%;
+}
+
+
+.navIcons{
+    background-color: white;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 5px 5px 0;
+}
+.navIcons i{
+    font-size: large;
+    color: rgb(20, 115, 145);
+}
+
+
+
+/*HEADING*/
+.heading{
+    background-color: rgba(255, 255, 255, 0.712);
+    height: 65vh;
+    margin: 3% 5%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.heading h2{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+
+/*CEO STATEMENT*/
+.section{
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ceoImg{
+    width: 30%;
+    height: 70vh;
+    margin-right: 2.5%;
+    position: relative;
+    top: 20%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px 0 gray;
+}
+.ceoImg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.verticalLine{
+    background-color: lightblue;
+    width: 4px;
+    height: 70vh;
+    position: relative;
+    top: 20%;
+    border-radius: 4px;
+}
+
+
+
+.ceoStatement{
+    width: 45%;
+    height: 70vh;
+    margin-left: 2.5%;
+    position: relative;
+    top: 20%;
+
+}
+.ceoStatement p{
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 5%;
+}
+.ceoStatement .name{
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/*BUTTON*/
+.read{
+    padding: 1% 2%;
+    background-color: rgb(20, 115, 145);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-self: center;
+    box-shadow: 0 0 7px 0 gray;
+    margin-bottom: 50px;
+    border-radius: 2px;
+}
+
+.read:hover{
+    color: rgb(20, 115, 145);
+    background-color: white;
+    border: 2px solid rgb(20, 115, 145);
+    transition: 0.15s;
+    transform: scale(0.9);
+    box-shadow: 0 0 3px 0 gray;
+}
+
+
+
+/*PAGE CONTROL*/
+.section3{
+    width: 100%;
+}
+.pdf{
+    margin-bottom: 10%;
+}
+
+.bottom{
+    height: 15vh;
+    width: 100%;
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.previous{
+    width: 20%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+}
+.previous a{
+    text-decoration: none;
+    color: rgb(20, 115, 145);
+    padding: 6% 12%;
+    border: 2px solid rgb(20, 115, 145);
+    box-shadow: 0 0 7px 0 gray;
+    border-radius: 2px;
+}
+.previous a:hover{
+    color: white;
+    background-color: rgb(20, 115, 145);
+    transition: 0.15s;
+    transform: scale(0.9);
+    box-shadow: 0 0 3px 0 gray;
+}
+
+.verticalLine2{
+    background-color: goldenrod;
+    width: 3px;
+    height: 50%;
+    margin: 0 2%;
+    border-radius: 2px;
+}
+
+.download{
+    width: 30%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(20, 115, 145);
+    padding: 5% 12%;
+    box-shadow: 0 0 7px 0 gray;
+    border-radius: 2px;
+}
+.download a:hover{
+    color: rgb(20, 115, 145);
+    background-color: white;
+    border: 2px solid rgb(20, 115, 145);
+    transition: 0.15s;
+    transform: scale(0.9);
+    box-shadow: 0 0 3px 0 gray;
+}
+
+.next{
+    width: 20%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next a{
+    text-decoration: none;
+    color: rgb(20, 115, 145);
+    padding: 6% 12%;
+    border: 2px solid rgb(20, 115, 145);
+    box-shadow: 0 0 7px 0 gray;
+    border-radius: 2px;
+}
+.next a:hover{
+    color: white;
+    background-color: rgb(20, 115, 145);
+    transition: 0.15s;
+    transform: scale(0.9);
+    box-shadow: 0 0 3px 0 gray;
+}
