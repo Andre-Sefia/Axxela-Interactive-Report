@@ -21,9 +21,8 @@
 
 .body{
     font-family: 'Light-Lato';
-    background-image: url(../resources/CEO_Statement/ceooffice.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/CEO_Statement/office.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
     padding-top: 2%;
 }
@@ -81,7 +80,7 @@
 
 /*HEADING*/
 .heading{
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgba(18, 86, 163, 0.4);
     height: 65vh;
     margin: 3% 5%;
     width: 35%;
@@ -96,74 +95,113 @@
     font-size: 50px;
     text-align: center;
     font-family: 'Lato';
+    color: white;
 }
 
 
 /*CEO STATEMENT*/
 .section{
     width: 100%;
-    height: 180vh;
+    height: 115vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.ceoImg{
-    width: 30%;
-    height: 70vh;
-    margin-right: 2.5%;
+.ceoProfile{
+    width: 80%;
+    height: 20vh;
     position: relative;
-    top: 20%;
-    border: 2px solid white;
-    box-shadow: 0 0 10px 0 gray;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
 }
-.ceoImg img{
-    width: 100%;
+.image{
+    width: 12%;
     height: 100%;
+    margin: 0 3%;
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 gray;
 }
 
-
-
-
-.verticalLine{
-    background-color: lightblue;
-    width: 4px;
-    height: 70vh;
-    position: relative;
-    top: 20%;
-    border-radius: 4px;
+.profile{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
-
-
-
-.ceoStatement{
-    width: 45%;
-    height: 70vh;
-    margin-left: 2.5%;
-    position: relative;
-    top: 20%;
-
-}
-.ceoStatement p{
-    font-weight: 400;
-    line-height: 200%;
-    margin-bottom: 5%;
-}
-.ceoStatement .name{
+.profile .name{
     font-family: 'Lato';
     font-size: 16px;
     margin-bottom: 0;
+    line-height: 150%;
+    color: rgb(9, 47, 90);
+}
+.fullname{
+    font-family: 'Lato';
+    font-size: 19px;
+    margin-bottom: 0;
+    line-height: 150%;
+}
+
+
+
+
+.statement{
+    height: 60vh;
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: auto;
+}
+.verticalLine{
+    background-color: lightblue;
+    width: 4px;
+    height: 270vh;
+    border-radius: 4px;
+}
+
+.ceoStatement{
+    width: 95%;
+    height: 80vh;
+    margin-left: 2.5%;
+}
+.ceoStatement p{
+    font-weight: 600;
+    line-height: 200%;
+    margin-bottom: 5%;
+    font-family: 'Light-Lato';
+}
+.subHead{
+    color: rgb(51, 49, 153);
+    font-size: 19px;
+    font-family: 'Lato';
+    line-height: 250%;
 }
 
 /*BUTTON*/
+.pdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 5%;
+}
 .read{
     padding: 1% 2%;
     background-color: rgb(20, 115, 145);
     text-decoration: none;
     color: white;
-    display: flex;
-    justify-self: center;
     box-shadow: 0 0 7px 0 gray;
-    margin-bottom: 50px;
     border-radius: 2px;
 }
 
@@ -182,10 +220,6 @@
 .section3{
     width: 100%;
 }
-.pdf{
-    margin-bottom: 10%;
-}
-
 .bottom{
     height: 15vh;
     width: 100%;

@@ -9,6 +9,10 @@
     src: url(../resources/Fonts/Lato/Lato-LightItalic.ttf);
 }
 @font-face {
+    font-family: 'Light-Lato';
+    src: url(../resources/Fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
     font-family: 'Lato';
     src: url(../resources/Fonts/Lato/Lato-Bold.ttf);
 }
@@ -25,7 +29,7 @@ body{
 /*BODY*/
 .hero{
     height: 65vh;
-    padding: 5% 7.5% 0 7.5%;
+    padding: 1% 7.5% 0 7.5%;
     background-color: rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
@@ -37,22 +41,32 @@ body{
     bottom: 0;
     z-index: -1;
     width: 100vw;
-}    
+}
+.logo{
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 12%;
+    opacity: 0.6;
+    height: 90%;
+}
+
 .home{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 45%;
     position: relative;
-    top: 20%;
+    top: 5%;
 }
 
 .hero h1{
     color: rgba(24, 53, 117, 0.9);
     font-weight: 500;
-    font-size: 45px;
+    font-size: 50px;
     margin-bottom: 2%;
 }
 .light{
@@ -63,8 +77,7 @@ body{
     width: 30%;
     height: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .reportBtn i{
@@ -79,7 +92,6 @@ body{
     color: rgba(21, 63, 153, 0.952);
     box-shadow: 0 0 5px 0 gray;
     padding: 3% 4%;
-    border-radius: 5px;
     width: 50%;
     text-align: center;
     font-weight: 500;
@@ -112,7 +124,6 @@ body{
     box-shadow: 0 0 5px 0 grey;
     width: 25%;
     height: 90%;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +162,7 @@ body{
 }
 
 .revenue span p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: white;
     text-align: center;
@@ -169,7 +180,7 @@ body{
 }
 
 .embsigns span p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: black;
     text-align: center;
@@ -190,7 +201,7 @@ body{
     transition: 0.2s;
 }
 .reach span p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: white;
     text-align: center;
@@ -203,14 +214,20 @@ body{
     padding: 0 7.5%;
 }
 
-
-.text{
+.ceoText{
+    height: 25vh;
     margin-top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-top: 1px solid rgba(24, 53, 117, 0.9);
+}
+.text{
     border-radius: 5px;
     height: 25vh;
     display: flex;
     align-items: center;
+    width: 70%;
 }
 .text i{
     color: rgb(209, 209, 209);
@@ -218,9 +235,41 @@ body{
     margin: 20px;
 }
 .text p{
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Italic-Lato';
-    font-weight: bold;
+    font-weight: 600;
+}
+.ceoName{
+    font-family: 'Light-Lato';
+    font-weight: 500;
+    font-size: 16px;
+}
+.read{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read a{
+    padding: 4% 8%;
+    background-color: rgb(20, 115, 145);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-self: center;
+    border-radius: 2px;
+    font-family: "Light-Lato";
+    font-size: 14px;
+}
+
+.read a:hover{
+    color: rgb(20, 115, 145);
+    background-color: white;
+    border: 2px solid rgb(20, 115, 145);
+    transition: 0.15s;
+    transform: scale(0.9);
+    box-shadow: 0 0 3px 0 gray;
 }
 
 
@@ -237,7 +286,7 @@ body{
 
 
 .gridItems{
-    height: 120vh;
+    height: 125vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -249,12 +298,12 @@ body{
     justify-content: space-between;
     width: 47.5%;
     height: 47.5%;
+    margin-bottom: 5%;
 }
 .reportGrid div{
     width: 40%;
     height: 48.5%;
     box-shadow: 0 0 10px 0 grey;
-    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,11 +360,9 @@ body{
     border: 1px solid rgba(21, 63, 153, 0.952);
     border-left: none;
     border-top: none;
-    border-radius: 5px;
     width: 47.5%;
     height: 47.5%;
     margin-left: 2%;
-    border-radius: 10px;
 } 
 .highlight:hover{
     transform: scale(0.94);
@@ -328,9 +375,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 70%;
-    background-color: rgba(24, 53, 117, 1);
+    background-color: black;
     width: 100%;
-    border-radius: 10px 10px 0 0;
 }
 .video:hover{
     cursor: pointer;
@@ -340,7 +386,6 @@ body{
 .video iframe{
     width: 99%;
     height: 99%;
-    border-radius: 5px 5px 0 0;
 }
 
 .highlightsText{
@@ -376,8 +421,7 @@ body{
     border-left: none;
     border-top: none;
     box-shadow: 0 0 10px 0 grey;
-    border-radius: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../resources/CEO_Statement/ceooffice.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../resources/CEO_Statement/CEO_Picture.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -390,17 +434,12 @@ body{
     transition: 0.4s;
     box-shadow: 0 0 5px 0 rgb(179, 178, 178);
 }
-.graph p{
-    font-size: 30px;
-    color: white;
-}
 .graph a{
     background-color: rgba(255, 255, 255, 0.459);
     color: white;
     text-decoration: none;
-    font-size: 16px;
-    margin: 7%;
-    padding: 1% 2%;
+    font-size: 19px;
+    padding: 2% 4%;
 }
 .graph a:hover{
     background-color: rgba(21, 63, 153, 0.952);
@@ -413,25 +452,28 @@ body{
     width: 47.5%;
     height: 45%;
     box-shadow: 0 0 10px 0 rgb(179, 178, 178);
-    border-radius: 10px;
     border-left: none;
     border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pictures{
+    height: 75%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.pictures{
-    height: 80%;
-}
 .gallery img{
     width: 32.5%;
     height: 48%;
-    border-radius: 10px;
     border: 1px solid white;
 }
 .viewGallery{
     width: 100%;
-    height: 14%;
+    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -766,7 +808,6 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 17px;
-    border-radius: 5px;
 }
 .download a:hover{
     background-color: rgb(245, 245, 18);
