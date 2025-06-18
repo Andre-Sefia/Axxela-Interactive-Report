@@ -339,6 +339,9 @@ body{
 .scope a{
     text-decoration: none;
 }
+.scope a:hover{
+    color: red;
+}
 
 
 /*  SECTION 3 */
@@ -467,7 +470,6 @@ body{
 }
 .video:hover{
     cursor: pointer;
-    background-color: red;
     transition: 0.3s;
 }
 .video iframe{
