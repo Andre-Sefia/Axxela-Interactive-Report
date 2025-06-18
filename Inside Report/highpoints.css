@@ -189,7 +189,10 @@ body{
     box-shadow: 0 0 10px 0 gray;
     padding: 2% 4%;
 }
-
+.comment p{
+    font-size: 16px;
+    font-family: 'Light-Lato';
+}
 .comment:hover{
     transform: scale(0.95);
     transition: 0.3s;
