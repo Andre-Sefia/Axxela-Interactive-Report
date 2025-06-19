@@ -170,17 +170,17 @@ body{
 }
 
 .revenue{
-    background-color: rgba(12, 89, 255, 0.95);
+    background-color: rgb(1, 62, 104, 0.9);
     padding: 0 2%;
 }
 .revenue:hover{
-    background-color: rgba(12, 89, 255, 1);
+    background-color: rgb(1, 62, 104);
     transform: scale(1.03);
     transition: 0.2s;
 }
 
 .revenue p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
     text-align: center;
@@ -188,7 +188,7 @@ body{
 }
 .revenue i{
     color: white;
-    font-size: 23px;
+    font-size: 30px;
 }
 
 .embsigns{
@@ -202,7 +202,7 @@ body{
 }
 
 .embsigns p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: black;
     text-align: center;
@@ -210,7 +210,7 @@ body{
 }
 .embsigns i{
     color: rgba(21, 63, 153, 0.952);
-    font-size: 23px;
+    font-size: 30px;
 }
 
 .green{
@@ -218,24 +218,24 @@ body{
 }
 
 .reach{
-    background-color: rgba(49, 185, 49, 0.95);
+    background-color: rgb(39, 189, 211);
     padding: 0 2%;
 }
 .reach:hover{
-    background-color: rgba(49, 185, 49, 1);
+    background-color: rgb(39, 189, 211);
     transform: scale(1.03);
     transition: 0.2s;
 }
 .reach p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
     text-align: center;
     line-height: 150%;
 }
 .reach i{
-    color: gold;
-    font-size: 23px;
+    color: rgb(255, 229, 180);
+    font-size: 30px;
 }
 
 
