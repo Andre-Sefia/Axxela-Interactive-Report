@@ -237,7 +237,9 @@ body{
     color: rgb(255, 229, 180);
     font-size: 30px;
 }
-
+.numbers p{
+    font-size: 45px;
+}
 
 /*SECTION 2*/
 .padding{
