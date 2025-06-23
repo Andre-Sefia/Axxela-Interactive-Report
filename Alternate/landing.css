@@ -506,7 +506,6 @@ body{
 .graph{
     width: 47.5%;
     height: 45%;
-    border: 1px solid green;
     border: 1px solid rgba(21, 63, 153, 0.952);
     border-left: none;
     border-top: none;
@@ -541,6 +540,9 @@ body{
 .gallery{
     width: 38.5%;
     height: 47.5%;
+    border: 1px solid rgba(21, 63, 153, 0.952);
+    border-left: none;
+    border-top: none;
     box-shadow: 0 0 10px 0 rgb(179, 178, 178);
     border-left: none;
     border-top: none;
@@ -548,6 +550,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.gallery:hover{
+    transform: scale(0.95);
+    transition: 0.3s;
+    box-shadow: 0 0 5px 0 rgb(179, 178, 178);
 }
 .pictures{
     height: 65%;
@@ -562,28 +569,7 @@ body{
     height: 48%;
     border: 1px solid white;
 }
-.viewGallery{
-    width: 100%;
-    height: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.viewGallery a{
-    color: rgba(21, 63, 153, 0.952);
-    background: white;
-    transition: 0.2s;
-    box-shadow: 0 0 3px 0 gray;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 1% 2%;
-}
-.viewGallery a:hover{
-    background-color: rgba(21, 63, 153, 0.952);
-    color: white;
-    box-shadow: 0 0 5px 0 rgba(21, 63, 153, 0.952);
-    transition: 0.2s;
-}
+
 
 /*DOWNLOAD BUTTON
 .download{
@@ -902,8 +888,8 @@ body{
     font-size: 17px;
 }
 .download a:hover{
-    background-color: rgb(245, 245, 18);
-    color: rgba(21, 63, 153, 0.952);
+    background-color: rgb(1, 62, 104);
+    color: white;
     transition: 0.3s;
     transform: scale(0.9);
 }
