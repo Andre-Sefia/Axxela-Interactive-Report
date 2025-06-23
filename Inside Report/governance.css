@@ -235,25 +235,66 @@ body{
 }*/
 
 .governance{
-    height: 50vh;
+    height: 85vh;
     width: auto;
-    padding: 0 10%;
+    padding: 5% 10%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
 }
 .governance hr{
     background-color: rgb(20, 115, 145);
     height: 2px;
-    width: 20%;
-    margin-bottom: 1%;
+    width: 15%;
+    margin-bottom: 2%;
     display: flex;
     justify-self: flex-start;
-    box-shadow: 0 0 5px 0 rgb(9, 47, 90);
+    box-shadow: 0 0 3px 0 rgb(9, 47, 90);
 }
 .governance p{
     font-family: 'Light-Lato';
     line-height: 175%;
     color: rgb(9, 47, 90);
+    margin-bottom: 2%;
+}
+.governance a{
+    color: rgb(20, 115, 145);
+}
+.governance a:hover{
+    color: brown;
+}
+
+.principles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+}
+.principlesImage{
+    width: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.principlesImage img{
+    width: 95%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 5px 0 gray;
+}
+.principlesText{
+    width: 88%;
+}
+
+.boardImage{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boardImage img{
+    width: 55%;
 }
