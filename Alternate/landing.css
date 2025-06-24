@@ -566,10 +566,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: antiquewhite;
+    align-items: center;
+    background-color: rgb(20, 115, 145);
 }
 .gallery img{
-    width: 32.5%;
+    width: 49%;
     height: 48%;
     border: 1px solid white;
 }

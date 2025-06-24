@@ -114,7 +114,7 @@
     padding: 2%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     border-left: 2px solid white;
     backdrop-filter: blur(7px);
     transition: 0.3s;
@@ -126,6 +126,17 @@
     display: none;
     justify-content: space-between;
     align-items: center;
+}
+.sideBar:hover .sideLogo{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sideBar:hover .sideLogo img{
+    width: 50%;
+    height: 85%;
 }
 
 .sideLogo i{
@@ -142,7 +153,7 @@
 
 .chapters{
     width: 100%;
-    height: 85%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -447,31 +458,37 @@
 
 
 
-/*BOTTOM*/
+/*PAGE CONTROL*/
+.pageControl{
+    width: 100%;
+}
 .bottom{
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     font-family: 'Lato';
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    align-items: center;
 }
-.wrapper{
-    display: flex;
+.container{
     width: 75%;
+    height: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .previous{
-    width: 20%;
-    height: 7.5vh;
+    width: 30%;
+    height: 35%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .previous a{
     text-decoration: none;
     color: rgb(20, 115, 145);
-    padding: 6% 12%;
+    padding: 4% 12%;
     border: 2px solid rgb(20, 115, 145);
     box-shadow: 0 0 7px 0 gray;
     border-radius: 2px;
@@ -494,6 +511,7 @@
 
 .download{
     width: 30%;
+    height: 35%;
     height: 7.5vh;
     display: flex;
     justify-content: center;
@@ -517,8 +535,8 @@
 }
 
 .next{
-    width: 20%;
-    height: 7.5vh;
+    width: 30%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -526,7 +544,7 @@
 .next a{
     text-decoration: none;
     color: rgb(20, 115, 145);
-    padding: 6% 12%;
+    padding: 4% 12%;
     border: 2px solid rgb(20, 115, 145);
     box-shadow: 0 0 7px 0 gray;
     border-radius: 2px;
