@@ -414,7 +414,12 @@ body{
     align-items: center;
     animation: ifrsTab;
     animation-timeline: view();
-    animation-range: entry 0 cover 35%;
+    animation-range: entry 0 cover 30%;
+}
+.ifrsTab:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 0 gray;
+    transition: 0.2s;
 }
 
 .ifrsTab .horizontalLine2{
