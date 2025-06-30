@@ -490,22 +490,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.highlightsText h4{
-    font-size: 15px;
-}
-.highlightsText a{
-    background-color: white;
-    border: 1px solid rgba(21, 63, 153, 0.952);
-    padding: 1% 2%;
-    color: rgba(21, 63, 153, 0.952);
-    text-decoration: none;
-    font-size: 14px;
-}
-.highlightsText a:hover{
-    background-color: rgba(21, 63, 153, 0.952);
-    color: white;
-    box-shadow: 0 0 5px 0 rgba(21, 63, 153, 0.952);
-}
 
 .graph{
     width: 47.5%;

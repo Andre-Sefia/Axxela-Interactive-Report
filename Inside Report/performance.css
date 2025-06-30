@@ -242,13 +242,6 @@ body{
     flex-direction: column;
     justify-content: start;
 }
-.performanceHead{
-    height: 25vh;
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
 .performanceHead h3{
     font-size: 40px;
 }

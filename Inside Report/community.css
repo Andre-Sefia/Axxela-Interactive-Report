@@ -469,3 +469,6 @@ body{
     box-shadow: 0 0 7px 0 gray;
     border-radius: 2px;
 }
+.next a:hover{
+    cursor: default;
+}
