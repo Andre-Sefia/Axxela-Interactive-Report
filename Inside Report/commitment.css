@@ -632,3 +632,200 @@ body{
     transform: scale(0.9);
     box-shadow: 0 0 3px 0 gray;
 }
+
+
+
+/* MEDIA QUERY!!! */
+@media all and (1000px <= width <= 1300px){
+
+.icons{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+/*SIDEBAR*/
+.sideBar:hover{
+    background-color: rgba(255, 255, 255, 0.26);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 2px solid white;
+    backdrop-filter: blur(7px);
+    transition: 0.3s;
+}
+
+.sideBar:hover .chapters a{
+    font-family: 'Lato';
+    text-decoration: none;
+    color: rgb(9, 47, 90);
+    font-size: 15px;
+    padding: 5% 2%;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.chapters i{
+    margin-right: 5%;
+    color: rgb(9, 47, 90);
+    font-size: 20px;
+}
+
+.sideBar:hover .chapters i{
+    color: goldenrod;
+    font-size: 15px;
+}
+
+
+
+/*HEADING*/
+
+.heading h2{
+    font-weight: bolder;
+    font-size: 230%;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+
+/*SUSTAINABILITY COMMITMENTS*/
+
+.commitment{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.commitmentImg{
+    width: 70%;
+    height: 80vh;
+    margin-bottom: 5%;
+}
+.commitmentImg img{
+    width: 100%;
+    height: 80vh;
+}
+
+
+.commitmentListing{
+    height: 30vh;
+    width: 90%;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*IFRS AND GRI*/
+.ifrs{
+    margin-top: 7%;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ifrsMain{
+    width: 80%;
+    height: 45%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 251, 255);
+}
+
+.ifrsText{
+    width: 50%;
+    height: 90%;
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ifrsText h4{
+    font-size: 130%;
+    color: rgb(39, 189, 211);
+}
+.ifrsText p{
+    font-size: 110%;
+    line-height: 150%;
+    color: rgb(1, 62, 104);
+    font-family: 'Light-Lato';
+}
+
+
+/*DRIVING INCLUSIVE PROGRESS*/
+.inclusiveProgress{
+    background-color: rgba(0,78,106,255);
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inclusiveProgress img{
+    width: 50%;
+    height: 90%;
+}
+
+.fullChapter{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+.fullChapter a{
+    background-color: white;
+    box-shadow: 0 0 5px 0 white;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: rgb(9, 47, 90);
+}
+.fullChapter a:hover{
+    background-color: rgb(219, 217, 217);
+    transition: 0.3s;
+}
+
+
+.fullChapter2{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 5% 0;
+}
+.fullChapter2 a{
+    background-color: rgb(20, 115, 145);
+    box-shadow: 0 0 5px 0 rgb(20, 115, 145);
+    padding: 1% 3%;
+    text-decoration: none;
+    color: white;
+}
+.fullChapter2 a:hover{
+    background-color: rgb(15, 96, 121);
+    transition: 0.3s;
+}
+
+
+
+}

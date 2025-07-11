@@ -18,14 +18,11 @@
     font-family: 'Rufina';
     src: url(../resources/Fonts/Lato/Rufina/Rufina-Bold.ttf);
 }
-body{
-    font-family: 'Lato';
-}
+
 .body{
     font-family: 'Light-Lato';
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../resources/Community/Empowerment.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../resources/Performance/environmental_stewardship.jpeg);
     background-size: cover;
-    background-position: center;
     height: 100vh;
     padding-top: 2%;
 }
@@ -43,8 +40,6 @@ body{
     justify-self: center;
     box-shadow: 0 0 10px 0px grey;
     border-radius: 5px;
-    position: sticky;
-    top: 0;
 }
 .navBar:hover{
     transform: scale(1.03);
@@ -132,10 +127,9 @@ body{
     height: 10%;
     width: 100%;
     display: none;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
-
 .sideBar:hover .sideLogo{
     height: 10%;
     width: 100%;
@@ -212,169 +206,117 @@ body{
 
 
 
-/*HEADING*/
-.heading{
-    background-color: rgba(20, 115, 145, 0.7);
-    height: 65vh;
-    margin: 3% 5%;
-    width: 35%;
+/*FORM*/
+.formContainer{
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
 }
 
-.heading h2{
-    font-weight: bolder;
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Lato';
-    color: white;
-    line-height: 150%;
-}
-
-
-/*TEXT*/
-.contributions{
-    height: 30vh;
-    width: auto;
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-}
-.contributions hr{
-    background-color: rgb(20, 115, 145);
-    height: 2px;
-    width: 15%;
-    display: flex;
-    justify-self: flex-start;
-    box-shadow: 0 0 3px 0 rgb(20, 115, 145);
-}
-.contributions p{
-    font-family: 'Light-Lato';
-    line-height: 175%;
-    color: rgb(9, 47, 90);
-}
-
-
-/**/
-.container1{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    margin-top: 5%;
-    background-color: rgb(39, 189, 211);
-    color: white;
-}
-
-.supplierImage{
-    width: 45%;
-    height: 100%;
-}
-.supplierImage img{
-    width: 100%;
-    height: 100%;
-}
-
-.info{
+.form{
+    height: 85%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 55%;
-    height: 100%;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 0 gray;
+    background-color: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(5px);
 }
-
-.top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.form h4{
+    color: goldenrod;
     font-family: 'Lato';
-    width: 80%;
-    height: 10%;
 }
 
-.top h3{
-    font-size: 18px;
-    font-family: 'Lato';
-    width: 70%;
-}
-
-.container1 .top a{
-    background-color: white;
-    color: rgb(20, 115, 145);
-    box-shadow: 0 0 5px 0 white;
-    padding: 1.5% 3%;
-    text-decoration: none;
-    font-size: 12px;
-}
-.container1 .top a:hover{
-    background-color: rgb(20, 115, 145);
-    border: 1px solid white;
-    box-shadow: none;
-    color: white;
-    transition: 0.2s;
-}
-
-.supplierText{
-    width: 80%;
-    line-height: 175%;
-    font-family: 'Light-Lato';
-    font-size: 16px;
-}
-
-
-
-/*GALLERY*/
-.gallery{
-    width: 100%;
-    height: 55vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.galleryHead{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-.galleryHead h3{
-    color: rgb(9, 47, 90);
-    font-size: 25px;
-}
-
-.album{
+form{
     width: 80%;
     height: 80%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow-x: auto;
-    padding: 0 2%;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.photo{
-    min-width: 30%;
-    height: 90%;
-    margin-right: 2%;
+
+.input-box{
+    height: 15%;
+    width: 100%;
+    margin: 2%;
 }
-.photo:hover{
+.input-box label{
+    color: goldenrod;
+    font-family: 'Lato';
+    font-size: 80%;
+}
+.input-box input{
+    width: 90%;
+    height: 70%;
+    padding-left: 5%;
+    background: none;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+    transition: .3s ease;
+}
+.input-box input::placeholder{
+    color: rgba(255, 255, 255, 0.452);
+    font-size: 120%;
+}
+.input-box input:focus{
     transform: scale(1.03);
-    box-shadow: 0 0 10px 0 gray;
     transition: 0.3s ease;
 }
-.photo img{
+
+.message-box{
+    width: 100%;
+    height: 30%;
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-box textarea{
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    padding: 2%;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.568);
+    color: rgb(9, 47, 90);
+    font-family: 'Light-Lato';
+    font-weight: 600;
+    transition: 0.3s;
+}
+.message-box textarea::placeholder{
+    color: goldenrod;
+}
+.message-box textarea:focus{
+    transform: scale(1.03);
+}
+
+.submit-box{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit-box input{
+    width: 70%;
+    height: 70%;
+    border-radius: 3px;
+    background-color: rgb(9, 47, 90);
+    box-shadow: 0 0 5px 0 rgb(9, 47, 90);
+    color: white;
+    transition: 0.3s;
+}
+.submit-box input:hover{
+    transform: scale(0.95);
+    background-color: rgb(20, 115, 145);
+    box-shadow:  0 0 5px 0 rgb(20, 115, 145);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -464,18 +406,14 @@ body{
 }
 .next a{
     text-decoration: none;
-    color: rgb(20, 115, 145);
+    color: gray;
     padding: 4% 12%;
-    border: 2px solid rgb(20, 115, 145);
+    border: 2px solid gray;
     box-shadow: 0 0 7px 0 gray;
     border-radius: 2px;
 }
 .next a:hover{
-    color: white;
-    background-color: rgb(20, 115, 145);
-    transition: 0.15s;
-    transform: scale(0.9);
-    box-shadow: 0 0 3px 0 gray;
+    cursor: default;
 }
 
 
@@ -499,7 +437,7 @@ body{
     position: fixed;
     top: 0;
     right: 0;
-    width: 28%;
+    width: 20%;
     height: 100%;
     padding: 2%;
     display: flex;
@@ -532,34 +470,17 @@ body{
     font-size: 15px;
 }
 
-
-/*GALLERY*/
-.album{
-    width: 80%;
-    height: 60%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow-x: auto;
-    padding: 0 2%;
-}
-.photo{
-    min-width: 30%;
-    height: 90%;
-    margin-right: 2%;
-}
-.photo:hover{
-    transform: scale(1.03);
-    box-shadow: 0 0 10px 0 gray;
-    transition: 0.3s ease;
-}
-.photo img{
+.sideBar:hover .sideLogo{
+    height: 10%;
     width: 100%;
-    height: 100%;
-    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-
-
+.sideBar:hover .sideLogo img{
+    width: 55%;
+    height: 65%;
+}
 
 
 }

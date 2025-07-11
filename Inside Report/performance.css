@@ -453,3 +453,73 @@ body{
     transform: scale(0.9);
     box-shadow: 0 0 3px 0 gray;
 }
+
+
+
+
+/* MEDIA QUERY!!! */
+@media all and (1000px <= width <= 1300px){
+
+.icons{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+/*SIDEBAR*/
+.sideBar:hover{
+    background-color: rgba(255, 255, 255, 0.26);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 28%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 2px solid white;
+    backdrop-filter: blur(7px);
+    transition: 0.3s;
+}
+
+.sideBar:hover .chapters a{
+    font-family: 'Lato';
+    text-decoration: none;
+    color: rgb(9, 47, 90);
+    font-size: 15px;
+    padding: 5% 2%;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.chapters i{
+    margin-right: 5%;
+    color: rgb(9, 47, 90);
+    font-size: 20px;
+}
+
+.sideBar:hover .chapters i{
+    color: goldenrod;
+    font-size: 15px;
+}
+
+
+/*OUR PERFORMANCE*/
+
+
+.top h3{
+    font-size: 18px;
+    font-family: 'Lato';
+    width: 70%;
+}
+
+
+
+
+}
