@@ -503,6 +503,7 @@ body{
 
 
 /* MEDIA QUERY!!! */
+/*LAPTOP SCREENS*/
 @media all and (1000px <= width <= 1300px){
 
 .icons{

@@ -829,3 +829,414 @@ body{
 
 
 }
+
+
+
+
+
+/* MEDIA QUERY!!! */
+/*MOBILE PHONE SCREENS*/
+@media all and (width <= 450px){
+
+.body{
+    font-family: 'Light-Lato';
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../resources/Commitment/background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 2%;
+}
+
+
+
+/*NAVIGATION*/
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    transition: 0.4s;
+    background-color: white;
+}
+.navBar:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.logo{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+}
+.logo a img{
+    width: 50%;
+    position: relative;
+    left: 21.5%;
+}
+
+
+.navIcons{
+    display: none;
+}
+
+/*SIDEBAR*/
+.sideBar{
+    display: none;
+}
+.sideBar:hover{
+    display: none;
+}
+
+
+/*HEADING*/
+.heading{
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 50vh;
+    position: relative;
+    top: 15%;
+    margin: 3% 5%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.heading h2{
+    font-weight: bolder;
+    font-size: 170%;
+    text-align: center;
+    font-family: 'Lato';
+    color: black;
+}
+
+
+
+/*SUSTAINABILITY COMMITMENTS*/
+.section3{
+    height: auto;
+    padding: 15% 0;
+    width: 100%;
+    background-color: rgb(1, 62, 104);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+}
+
+.commitment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 10%;
+}
+.commitmentH3{
+    color: white;
+    font-size: 110%;
+    width: 100%;
+    line-height: 160%;
+    margin-bottom: 5%;
+}
+.commitmentP{
+    color: white;
+    width: 100%;
+    font-family: 'Light-Lato';
+    font-size: 13px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.commitmentImg{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+.commitmentImg img{
+    width: 100%;
+    height: 100%;
+}
+
+/*JAVASCRIPT STYLE*/
+#image1{
+    display: flex;
+    transition: 0.3s;
+}
+#image2{
+    display: none;
+    transition: 0.3s;
+}
+#image3{
+    display: none;
+    transition: 0.3s;
+}
+
+
+.commitmentListing{
+    height: auto;
+    width: 100%;
+    color: gray;
+    display: flex;
+    overflow-x: auto;
+}
+.commitmentListingTab{
+    min-width: 70%;
+    margin: 0 5%;
+}
+
+
+/*IFRS AND GRI*/
+.ifrs{
+    padding-top: 10%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ifrsMain{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 251, 255);
+    margin-bottom: 15%;
+}
+.ifrsImage{
+    width: 100%;
+    height: 40%;
+}
+.ifrsImage img{
+    width: 100%;
+    height: 100%;
+}
+.ifrsText{
+    width: 100%;
+    height: 60%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ifrsText h4{
+    font-size: 130%;
+    line-height: 150%;
+    color: rgb(39, 189, 211);
+    margin: 5% 0;
+}
+.ifrsText p{
+    font-size: 115%;
+    margin-bottom: 5%;
+}
+.ifrsText a{
+    text-decoration: none;
+    color: rgb(20, 115, 145);
+    padding: 1.5% 3%;
+    border: 2px solid rgb(20, 115, 145);
+    border-radius: 2px;
+    width: 25%;
+    text-align: center;
+    margin: 5% 0;
+}
+.ifrsText a:hover{
+    color: white;
+    background-color: rgb(20, 115, 145);
+    transition: 0.15s;
+    transform: scale(0.9);
+    box-shadow: 0 0 3px 0 gray;
+}
+
+.ifrsPoints{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@keyframes ifrsTab {
+    0%{
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.ifrsTab{
+    width: 80%;
+    height: 60%;
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: ifrsTab;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+.ifrsTab:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 0 gray;
+    transition: 0.2s;
+}
+
+.ifrsTab .horizontalLine2{
+    background-color: rgb(39, 189, 211);
+    width: 100%;
+    height: 4px;
+    margin-bottom: 5%;
+}
+.ifrsTabTexts i{
+    display: flex;
+    justify-self: center;
+    margin-bottom: 3%;
+    color: goldenrod;
+}
+.ifrsTabTexts h5{
+    font-size: 16px;
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(9, 47, 90);
+}
+.ifrsTabTexts p{
+    font-size: 14px;
+    font-family: 'Light-Lato';
+    font-weight: 600;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+
+/*DRIVING INCLUSIVE PROGRESS*/
+.inclusiveProgress{
+    height: 100vh;
+}
+
+.inclusiveProgressHead{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.inclusiveProgressHead h4{
+    color: white;
+    font-size: 130%;
+    width: auto;
+    line-height: 160%;
+    margin-bottom: 5%;
+}
+.inclusiveProgressHead p{
+    color: white;
+    width: auto;
+    font-family: 'Light-Lato';
+    font-size: 110%;
+    line-height: 160%;
+}
+.inclusiveProgressImage{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inclusiveProgress img{
+    width: 100%;
+    height: 90%;
+}
+
+
+.fullChapter a{
+    padding: 4% 7%;
+}
+
+
+
+.fullChapter2 a{
+    padding: 4% 7%;
+}
+
+
+/*PAGE CONTROL*/
+/*PAGE CONTROL*/
+.pageControl{
+    width: 100%;
+    padding: 7.5% 0;
+}
+.bottom{
+    height: auto;
+    width: 100%;
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.previous a{
+    padding: 10% 12%;
+    font-size: 60%;
+}
+
+.verticalLine2{
+    background-color: goldenrod;
+    width: 3px;
+    height: 50%;
+    margin: 0 2%;
+    border-radius: 2px;
+}
+
+.download{
+    width: 30%;
+    height: 35%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download a{
+    padding: 10% 12%;
+    font-size: 60%;
+}
+
+.next{
+    width: 30%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next a{
+    padding: 10% 12%;
+    font-size: 60%;
+}
+
+
+
+}

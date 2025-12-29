@@ -310,6 +310,13 @@
     margin-bottom: 5%;
     font-family: 'Light-Lato';
 }
+.ceoStatement ul li{
+    font-weight: 600;
+    line-height: 200%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-family: 'Light-Lato';
+}
 .subHead{
     color: rgb(51, 49, 153);
     font-size: 19px;
@@ -419,6 +426,7 @@
 
 
 /* MEDIA QUERY!!! */
+/*LAPTOP SCREENS*/
 @media all and (1000px <= width <= 1300px){
 
 .icons{
@@ -481,6 +489,255 @@
     font-family: 'Lato';
     color: white;
 }
+
+
+}
+
+
+
+
+
+/* MEDIA QUERY!!! */
+/*MOBILE PHONE SCREENS*/
+@media all and (width <= 450px){
+
+.body{
+    font-family: 'Light-Lato';
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/CEO_Statement/office.jpeg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2%;
+}
+
+
+
+
+
+/*NAVIGATION*/
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    transition: 0.4s;
+    background-color: white;
+}
+.navBar:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.logo{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+}
+.logo a img{
+    width: 50%;
+    position: relative;
+    left: 21.5%;
+}
+
+
+.navIcons{
+    display: none;
+}
+
+/*SIDEBAR*/
+.sideBar{
+    display: none;
+}
+.sideBar:hover{
+    display: none;
+}
+
+
+/*HEADING*/
+.heading{
+    background-color: rgba(18, 86, 163, 0.4);
+    height: 50vh;
+    position: relative;
+    top: 15%;
+    margin: 3% 5%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.heading h2{
+    font-weight: bolder;
+    font-size: 170%;
+    text-align: center;
+    font-family: 'Lato';
+    color: white;
+}
+
+
+/*CEO STATEMENT*/
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ceoProfile{
+    width: 90%;
+    height: 20vh;
+    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.image{
+    width: 17%;
+    height: 100%;
+    margin: 0 3%;
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 gray;
+}
+
+.profile{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile .name{
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 150%;
+    color: rgb(9, 47, 90);
+}
+.fullname{
+    font-family: 'Lato';
+    font-size: 19px;
+    margin-bottom: 0;
+    line-height: 150%;
+}
+
+
+
+
+.statement{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: visible;
+}
+.verticalLine{
+    background-color: lightblue;
+    width: 4px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 0 rgb(20, 115, 145);
+    display: none;
+}
+
+.ceoStatement{
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+}
+.ceoStatement p{
+    font-weight: 600;
+    line-height: 200%;
+    margin-bottom: 5%;
+    font-family: 'Light-Lato';
+}
+.subHead{
+    color: rgb(51, 49, 153);
+    font-size: 19px;
+    font-family: 'Lato';
+    line-height: 250%;
+}
+
+
+
+
+/*PAGE CONTROL*/
+.pageControl{
+    width: 100%;
+    padding: 7.5% 0;
+}
+.bottom{
+    height: auto;
+    width: 100%;
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.previous a{
+    padding: 10% 12%;
+    font-size: 60%;
+}
+
+.verticalLine2{
+    background-color: goldenrod;
+    width: 3px;
+    height: 50%;
+    margin: 0 2%;
+    border-radius: 2px;
+}
+
+.download{
+    width: 30%;
+    height: 35%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download a{
+    padding: 10% 12%;
+    font-size: 60%;
+}
+
+.next{
+    width: 30%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next a{
+    padding: 10% 12%;
+    font-size: 60%;
+}
+
+
 
 
 }
